@@ -1,0 +1,13 @@
+﻿  cardClass.cpp
+C:\Users\phama\source\repos\Card\cardClass.cpp(46,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\phama\source\repos\Card\cardClass.cpp(37,19): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  C:\Users\phama\source\repos\Card\cardClass.cpp(37,19):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\phama\source\repos\Card\cardClass.cpp(73,5):
+  	see reference to function template instantiation 'void shuffle<std::vector<Card,std::allocator<Card>>>(A &,int,const int)' being compiled
+          with
+          [
+              A=std::vector<Card,std::allocator<Card>>
+          ]
+  
+  Card.vcxproj -> C:\Users\phama\source\repos\Card\x64\Debug\Card.exe
